@@ -1,6 +1,6 @@
 import React from 'react';
-import { useGetPostListQuery } from '../api/api';
-import PostItem from './PostItem';
+import { useGetPostListQuery } from '../../api/fetchPostData';
+import PostItem from '../PostItem/PostItem';
 import { Box, Typography } from '@mui/material';
 
 function PostsList() {

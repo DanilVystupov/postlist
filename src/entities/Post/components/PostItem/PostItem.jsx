@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Box, Typography, Button } from '@mui/material';
-import { POST_DETAIL_PATH } from '../path/path';
+import { POST_DETAIL_PATH } from '../../../../shared/consts/paths';
 
 const PostItem = ({post}) => {
   return (

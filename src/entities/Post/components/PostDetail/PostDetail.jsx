@@ -1,8 +1,8 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { useGetPostIdQuery } from '../api/api';
+import { useGetPostIdQuery } from '../../api/fetchPostData';
 import { Box, Typography, Button } from '@mui/material';
-import { HOME_PATH } from '../path/path';
+import { HOME_PATH } from '../../../../shared/consts/paths';
 
 const PostDetail = () => {
   const { id } = useParams();
